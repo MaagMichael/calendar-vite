@@ -1,0 +1,20 @@
+ [
+    {
+      "id": 1,
+      "name": "Meeting 1",
+      "startDatetime": "2023-08-11T13:00",
+      "endDatetime": "2023-08-11T14:30"
+    },
+    {
+        "id": 2,
+        "name": "Meeting 2",
+        "startDatetime": "2023-08-20T09:00",
+        "endDatetime": "2023-08-20T11:30"
+    },
+    {
+        "id": 3,
+        "name": "Meeting 3",
+        "startDatetime": "2023-09-20T17:00",
+        "endDatetime": "2023-09-20T18:30"
+    }
+  ]
