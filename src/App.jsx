@@ -1,5 +1,7 @@
 import { useState } from "react";
+import Gcalendar from 'Gcalendar';
 
+// import from library date-fns
 import {
   add,
   sub,
@@ -17,6 +19,7 @@ const weeks = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 import room1 from "./room1.json";
 
 import "./App.css";
+import { Gcalendar } from "./Gcalendar";
 
 function App() {
   const [currentDate, setCurrentDate] = useState(new Date());
@@ -158,8 +161,15 @@ function App() {
           goto Date selected
         </button>
       </div>
+
+      <Gcalendar/>
     </>
   );
 }
 
+
 export default App;
+
+
+
+
