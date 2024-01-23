@@ -86,3 +86,17 @@
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
 }
+/* for g-calendar logic */
+.room-free {
+  background-color: green;
+  width: 2.5rem;
+  height: 1.5rem;
+  border-radius: .25rem;
+  margin: auto;
+  color: white;
+}
+.todayGoogle {
+  color: white;
+  background-color: cornflowerblue;
+  border-radius: .5rem;
+}
