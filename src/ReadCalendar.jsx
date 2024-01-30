@@ -41,6 +41,7 @@ function ReadCalendar() {
   const [roomFree, setRoomFree] = useState([]);
   const hasFetchedData = useRef(false);
 
+  // fetch only once the data using useRef hook or deactivate strict mode
   useEffect(() => {
     const fetchDates = async () => {
       const startDate = new Date().toISOString();
