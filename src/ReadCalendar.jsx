@@ -103,8 +103,8 @@ function ReadCalendar() {
 
   const prevMonth = () => {
 
-    console.log(format(today, "yy"), format(currentDate, "yy"));
-    console.log(format(today, "MM"), format(currentDate, "MM"));
+    // console.log(format(today, "yy"), format(currentDate, "yy"));
+    // console.log(format(today, "MM"), format(currentDate, "MM"));
     if (
       !isWithinInterval(today, { start: startDate, end: endDate })
     ) {
