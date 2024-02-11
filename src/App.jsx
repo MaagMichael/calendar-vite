@@ -1,5 +1,7 @@
 import { useState } from "react";
+
 import ReadCalendar from "./ReadCalendar"
+import EmbedCalendar from "./EmbedCalendar"
 
 // import from library date-fns
 import {
@@ -162,6 +164,8 @@ function App() {
       </div>
 
       <ReadCalendar/>
+
+      <EmbedCalendar/>
     </>
   );
 }
